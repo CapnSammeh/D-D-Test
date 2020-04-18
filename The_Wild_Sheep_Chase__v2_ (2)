@@ -12,15 +12,15 @@
 				]
 			}
 		],
-		"dateAdded": 1587194177,
-		"dateLastModified": 1587194177
+		"dateAdded": 1587194851,
+		"dateLastModified": 1587194851
 	},
 	"monster": [
 		{
 			"name": "Guz",
 			"shortName": true,
 			"source": "Testtest",
-			"size": "H",
+			"size": "M",
 			"type": "humanoid",
 			"alignment": [
 				"C",
@@ -80,7 +80,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"uniqueId": "43270cd3a469f25a6767d3b2aa3bf4c6"
+			"uniqueId": "6529c6c6507c5fe04f5a0ff41149a43d"
 		},
 		{
 			"name": "Bed Dragon Wyrmling",

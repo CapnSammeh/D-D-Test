@@ -1,0 +1,263 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Testtest",
+				"abbreviation": "WSC",
+				"full": "The Wild Sheep Chase (v2)",
+				"url": "",
+				"authors": [],
+				"convertedBy": [
+					"CapnSammeh"
+				]
+			}
+		],
+		"dateAdded": 1587194177,
+		"dateLastModified": 1587194177
+	},
+	"monster": [
+		{
+			"name": "Guz",
+			"shortName": true,
+			"source": "Testtest",
+			"size": "H",
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 27",
+				"average": 67
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"fly": 30,
+				"canHover": false
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 17,
+			"int": 8,
+			"wis": 11,
+			"cha": 8,
+			"skill": {
+				"intimidation": "+2"
+			},
+			"passive": 10,
+			"vulnerable": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Orc"
+			],
+			"cr": "2",
+			"action": [
+				{
+					"name": "Whirling Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., two separate targets. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"O"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "43270cd3a469f25a6767d3b2aa3bf4c6"
+		},
+		{
+			"name": "Bed Dragon Wyrmling",
+			"shortName": true,
+			"source": "Testtest",
+			"size": "L",
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"fly": 30,
+				"canHover": false
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 17,
+			"int": 8,
+			"wis": 8,
+			"cha": 4,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+5"
+			},
+			"passive": 12,
+			"vulnerable": [
+				"fire"
+			],
+			"cr": "4",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage."
+					]
+				},
+				{
+					"name": "Splinter Breath",
+					"entries": [
+						"The Bed Dragon Wyrmling sends out a shower of wooden splinters in a 15-foot cone. Each creature in that area must make a DC13 Dexterity Save, taking 24 ({@damage 7d6}) piercing damage on a failed save, or half as much on a successful one. "
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"uniqueId": "4ee952daa508edee717827bfe7a91d0a"
+		},
+		{
+			"name": "Ahmed Noke",
+			"shortName": true,
+			"source": "Testtest",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "10d8 + 10",
+				"average": 55
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 12,
+			"int": 16,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"int": "+5",
+				"wis": "+3"
+			},
+			"skill": {
+				"arcana": "+7"
+			},
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Draconic"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Noke is a 7th Level Spellcaster. His spellcasting ability in Intelligence (spell save {@dc 14}, spell attacks +6 to hit). "
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mending|PHB}",
+								"{@spell message|PHB}",
+								"{@spell prestidigitation|PHB}",
+								"{@spell ray of frost|PHB}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell expeditious retreat|PHB}",
+								"{@spell jump|PHB}",
+								"{@spell thunderwave|PHB}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell enlarge/reduce|PHB}",
+								"{@spell levitate|PHB}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell haste|PHB}",
+								"{@spell slow|PHB}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell polymorph|PHB}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 1} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage in melee, or 3 ({@damage 1d4 + 1}) piercing damage at range."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"E"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"uniqueId": "4da58c7f082ff3656bb8b62a43f3cfb7"
+		}
+	]
+}
